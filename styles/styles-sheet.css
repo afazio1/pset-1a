@@ -1,0 +1,72 @@
+
+/* Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: white;
+
+}
+
+h1 {
+	font-family: sans-serif;
+	color: #FC035A;
+	text-align: center;
+	padding: 5px;
+	padding-top: 70px;
+}
+
+h2 {
+	font-family: sans-serif;
+	color: #6C6C6C;
+	text-align: center;
+	padding: 20px;
+}
+
+h3 {
+	font-family: sans-serif;
+	color: #6C6C6C;
+	text-align: center;
+	padding: 20px;
+}
+p{
+	margin: auto;
+	width: 50%;
+}
+
+/* Navigation Bar*/
+
+.nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #FC035A;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.main-header {
+	font-family: sans-serif;
+	color: #FC035A
+	text-align: center;
+	padding: 5px;
+	padding-top: 60px;
+	font-size: 300%;
+}

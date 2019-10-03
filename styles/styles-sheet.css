@@ -33,14 +33,14 @@ h3 {
 	text-align: center;
 	padding: 20px;
 }
-p{
+p {
 	margin: auto;
 	width: 50%;
 }
 
 /* Navigation Bar*/
 
-.nav ul {
+div ul.nav {
   list-style-type: none;
   overflow: hidden;
   background-color: #FC035A;
@@ -50,17 +50,23 @@ p{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.nav li {
+div ul li.nav {
   float: left;
 }
 
-.nav li a {
+div ul li a.nav {
   display: block;
   color: white;
   font-family: sans-serif;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+div ul li a.nav:hover {
+	background-color: white;
+	color: gray;
+
 }
 
 .main-header {
@@ -71,11 +77,28 @@ p{
 	padding-top: 60px;
 	font-size: 300%;
 }
+/* Lists */
 
-/* Center Image */
+.bullets {
+	margin-left: 25%;
+	list-style-type: circle;
+}
+#ordered {
+margin-left: 45%;
+}
+
+/* Center/Size Image */
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 
 }
+#logos {
+	height: 130px;
+	width: 250px;
+}
+/*
+img.center:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+*/
